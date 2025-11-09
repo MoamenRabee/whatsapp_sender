@@ -1,4 +1,4 @@
-import 'package:whatsapp_sender/whatsapp_sender.dart';
+import 'package:whats_sender/whatsapp_sender.dart';
 
 void main() async {
   final whatsappSender = WhatsAppSender('sk_hcothYHuGHiFd3xSwPBAKNBvouO07977MpFIcDtHs0VZk91B');

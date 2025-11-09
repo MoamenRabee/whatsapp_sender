@@ -16,7 +16,7 @@ class WhatsAppSender {
   Future<WhatsAppResponse> sendMessage(String phoneNumber, String message) async {
     final url = Endpoints.whatsappApi + Endpoints.sendMessage;
     try {
-      final response = await _dio.post(url, data: {'api_key': _apiKey, 'phone_number': phoneNumber, 'message': message});
+      final response = await _dio.post(url, data: {'api_key': _apiKey, 'phone': phoneNumber, 'message': message});
 
       if (response.statusCode == 200) {
         final responseData = response.data;

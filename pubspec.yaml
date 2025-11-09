@@ -1,6 +1,6 @@
 name: whatsapp_sender
 description: A Dart package for sending WhatsApp messages and managing OTP (One-Time Password) functionality via the Softeks WhatsApp API.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/MoamenRabee/whatsapp_sender
 
 environment:
